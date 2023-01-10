@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.eliq.disabletraintrapdoor.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TrainTrapdoorDisabler"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

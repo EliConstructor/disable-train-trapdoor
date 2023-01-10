@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "disabletraintrapdoor",
+  "version": "${version}",
+
+  "name": "Create Train Trapdoor Disabler",
+  "description": "One mixin mod that disables the ability to open and close trapdoors on Create mod trains.",
+  "authors": [
+    "EliConstructor"
+  ],
+  "contact": {
+    "homepage": "https://github.com/EliConstructor/disable-train-trapdoor",
+    "sources": "https://github.com/EliConstructor/disable-train-trapdoor"
+  },
+
+  "license": "CC0",
+  "icon": "assets/traintrapdoordisabler/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.eliq.disabletraintrapdoor.DisableTrainTrapdoor"
+    ]
+  },
+  "mixins": [
+    "disabletraintrapdoor.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17",
+    "create": "*"
+  },
+  "suggests": {
+  }
+}
